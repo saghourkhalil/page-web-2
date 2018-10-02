@@ -1,9 +1,11 @@
 body {
-    height: 100%;   
+	height: 100%;  
+	font-family: 'ABeeZee';
+	font-size: 0.8em;
 }
 
 .imagge{
-	padding-top: 190px;
+	padding-top: 160px;
 	display: flex;
 	justify-content:center;
 	align-items:center;
@@ -44,9 +46,9 @@ body {
     font-weight: bold;
     padding: 0 16px;
     margin: 11px 4px;
-    border: none;
     color: black;
-    background-color:#E5E5E5; 
+	background-color:#E5E5E5;
+	border: 1px solid #b6b6b6;
 	}
 .chance{
 	height: 36px;
@@ -65,9 +67,9 @@ body {
     font-weight: bold;
     padding: 0 16px;
     margin: 11px 4px;
-    border: none;
     color: black;
-    background-color:#E5E5E5; 
+	background-color:#E5E5E5; 
+	border: 1px solid #b6b6b6;
 }
 
 nav.menu ul li.gmail {
@@ -77,7 +79,7 @@ nav.menu ul li.gmail {
     margin: 9px 4px;
 }
 nav.menu ul li.gmail:hover a{
-	text-decoration: none;
+	text-decoration: underline;
 	background-color:white;
 	color:#7F7F7F;
 }
@@ -88,7 +90,7 @@ nav.menu ul li.gmail a{
 nav.menu ul li.rond {
 	display: flex; 
 	float: right;
-	padding-left: 10px;
+	padding-left: 15px;
 }
 nav.menu ul li.rond a img{
 	display: flex; 
@@ -100,7 +102,7 @@ nav.menu ul li.img {
 	display: flex; 
 	float: right;
 	padding-right: 15px;
-	padding-left: 10px;
+	padding-left: 15px;
 }
 nav.menu ul li.cloche{
 	display: flex; 
@@ -132,10 +134,25 @@ nav.menu ul li.cloche a img{
    border-right: none;
    border-top: 1px solid #e4e4e4;
 }
+#footer1{
+    display: flex;
+    height: 40px;
+    right: 0;
+   	margin-bottom: 0 !important;
+   	width: 100%;
+    background-color: #f2f2f2;
+   	border-left: none;
+   	border-right: none;
+   	border-top: 1px solid #e4e4e4;
+}
 #footer a {
     text-decoration: none;
     color: #717171;
-    font-size: 16px;
+    font-size: 14px;
+}
+
+#footer a:hover {
+    text-decoration: underline;
 }
 
 #footerleft{
@@ -173,12 +190,79 @@ nav.menu ul li.cloche a img{
 
 #footerpri{
     padding-left: 15px;
+
 }
 
 #footerset{
     padding-left: 15px;
     margin-right: 15px;
 }
+
+
+
+#footer{
+	display: flex;
+	justify-content: space-between;;
+	height: 32px;
+	position: fixed;
+	right: 0;
+    bottom: 0 !important;
+    width: 100%;
+	background-color: #f2f2f2;
+	font-size: 14px;
+	
+}
+#footer a {
+	text-decoration: none;
+	color: #717171;
+}
+
+#footerleft{
+	display: flex;
+	align-items: center;
+	margin-left: 15px;
+}
+
+#footeradvert{
+	padding-left: 10px;
+	text-decoration: none;
+}
+
+#footerbus{
+	text-decoration: none;
+	padding-left: 15px;
+}
+
+#footerabout{
+	padding-left: 15px;
+}
+
+#footerright{
+	display: flex;
+	align-items: center;
+}
+
+#footercon{
+	padding-left: 10px;
+}
+
+#footerinf{
+	padding-left: 15px;
+}
+
+#footerpri{
+	padding-left: 15px;
+}
+
+#footerset{
+	padding-left: 15px;
+}
+
+#chanlg{
+	display:flex;
+	justify-content: center;
+}
+
 
 
 
